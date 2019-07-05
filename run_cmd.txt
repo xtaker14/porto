@@ -1,0 +1,17 @@
+run cmd laravel :
+
+//menjalankan server
+php artisan serve
+
+//menghentikan server
+CTRL+C
+
+//mulai MT
+php artisan down
+
+//stop MT
+php artisan up
+
+// membersihkan
+php artisan cache:clear
+php artisan config:cache
